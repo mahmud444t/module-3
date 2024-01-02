@@ -1,4 +1,18 @@
-.new div{
-    background-color: aqua;
+*{
+    margin: 0;
+    padding: 0;
+}
+.new-div{
+
+    width: 30%;
+background-color: aquamarine;
     margin: 10px;
+    padding: 5px;
+    text-align: justify;
+}
+.whole-div{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
