@@ -4,15 +4,22 @@
 }
 .new-div{
 
-    width: 30%;
-background-color: aquamarine;
+    
+    background-color: aquamarine;
     margin: 10px;
-    padding: 5px;
+    padding: 15px 20px ;
     text-align: justify;
+    border-radius: 10px;
 }
 .whole-div{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 30px;
+    
+}
+body{
+    width: 90%;
+    margin: 0 auto;
+    background-color: brown;
 }
